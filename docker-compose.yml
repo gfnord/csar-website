@@ -2,5 +2,5 @@ services:
   csar-website:
     build: .
     ports:
-      - "8080:80"
+      - "31742:80"
     restart: unless-stopped

@@ -1,6 +1,11 @@
 services:
   csar-website:
     build: .
-    ports:
-      - "31742:80"
+    container_name: csar-website
     restart: unless-stopped
+    networks:
+      - proxy-network
+
+networks:
+  proxy-network:
+    external: true

@@ -1,0 +1,7 @@
+# AI assistant context files
+CLAUDE.md
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db

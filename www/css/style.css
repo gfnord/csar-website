@@ -82,7 +82,7 @@ p:last-child { margin-bottom: 0; }
 }
 .btn--primary {
   background: var(--color-accent);
-  color: var(--color-white);
+  color: var(--color-dark);
   border-color: var(--color-accent);
 }
 .btn--primary:hover {
@@ -180,13 +180,13 @@ p:last-child { margin-bottom: 0; }
 }
 .nav-links .btn--emergency {
   background: var(--color-accent);
-  color: var(--color-white);
+  color: var(--color-dark);
   padding: 0.4rem 1rem;
   border-radius: var(--radius);
   font-size: 0.8rem;
 }
 .nav-links .btn--emergency:hover {
-  background: #c94e0a;
+  background: #e6b600;
 }
 .nav-toggle {
   display: none;
@@ -252,7 +252,7 @@ p:last-child { margin-bottom: 0; }
 .hero-badge {
   display: inline-block;
   background: var(--color-accent);
-  color: var(--color-white);
+  color: var(--color-dark);
   font-family: var(--font-heading);
   font-size: 0.75rem;
   font-weight: 600;
@@ -387,13 +387,13 @@ p:last-child { margin-bottom: 0; }
 /* ── Call to Action Block ───────────────────── */
 .cta-block {
   background: var(--color-accent);
-  color: var(--color-white);
+  color: var(--color-dark);
   border-radius: var(--radius);
   padding: 3rem;
   text-align: center;
 }
-.cta-block h2 { color: var(--color-white); margin-bottom: 1rem; }
-.cta-block p { color: rgba(255,255,255,0.85); margin-bottom: 1.5rem; font-size: 1.05rem; }
+.cta-block h2 { color: var(--color-dark); margin-bottom: 1rem; }
+.cta-block p { color: rgba(13,21,38,0.75); margin-bottom: 1.5rem; font-size: 1.05rem; }
 
 /* ── Page Header (inner pages) ─────────────── */
 .page-hero {

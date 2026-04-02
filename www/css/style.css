@@ -6,13 +6,13 @@
 
 /* ── CSS Variables ─────────────────────────── */
 :root {
-  --color-primary:  #1B3A2D;
-  --color-accent:   #E85C0D;
-  --color-light:    #F4F1EC;
-  --color-dark:     #111A14;
-  --color-mid:      #4A5E52;
+  --color-primary:  #1A3A6B;
+  --color-accent:   #F5C200;
+  --color-light:    #F0F4FA;
+  --color-dark:     #0D1526;
+  --color-mid:      #4A5A7A;
   --color-white:    #FFFFFF;
-  --color-border:   #D4CEC5;
+  --color-border:   #C8D0E0;
 
   --font-heading: 'Oswald', sans-serif;
   --font-body:    'Lora', serif;

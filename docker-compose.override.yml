@@ -1,0 +1,4 @@
+services:
+  csar-website:
+    ports:
+      - "8080:80"

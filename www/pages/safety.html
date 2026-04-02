@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Outdoor Safety | Castlegar Search and Rescue</title>
+  <meta name="description" content="Outdoor safety tips from Castlegar Search and Rescue. Learn the Three Ts — Trip Planning, Training, and Taking the Essentials — before heading into the West Kootenay backcountry." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .fade-in { opacity: 0; transform: translateY(16px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .fade-in.visible { opacity: 1; transform: none; }
+    .three-t {
+      background: var(--color-white);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      border-left: 6px solid var(--color-accent);
+    }
+    .three-t h3 { color:var(--color-primary); font-size:1.5rem; margin-bottom:0.5rem; }
+    .three-t .t-number { font-family:var(--font-heading); font-size:3rem; font-weight:700; color:var(--color-accent); line-height:1; margin-bottom:0.75rem; }
+    .essentials-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:1rem; margin-top:1.5rem; }
+    .essential-item { background:var(--color-white); border:1px solid var(--color-border); border-radius:var(--radius); padding:1rem 1.25rem; font-size:0.9rem; display:flex; align-items:center; gap:0.75rem; }
+    .essential-item span { font-size:1.4rem; }
+  </style>
+</head>
+<body>
+
+  <div class="emergency-banner">
+    🚨 In an emergency, call <a href="tel:911">911</a> immediately — SAR services are always <strong>free of charge</strong>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="../index.html" class="nav-logo">
+        <div class="nav-logo-icon">SAR</div>
+        <div class="nav-logo-text">
+          Castlegar Search &amp; Rescue
+          <span>West Kootenay, BC</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="safety.html" class="active">Stay Safe</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="tel:911" class="btn--emergency">📞 911</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Public Safety</span>
+        <h1>Stay Safe Outdoors</h1>
+        <p>The West Kootenay is stunning — but the backcountry demands respect. A little preparation can make the difference between a great adventure and an emergency call.</p>
+      </div>
+    </div>
+
+    <!-- Intro -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">BC AdventureSmart</span>
+          <h2>Know Before You Go — The Three Ts</h2>
+          <p>
+            BC AdventureSmart's Three Ts framework is your guide to safe outdoor adventure. CSAR strongly encourages every person heading outdoors to follow these principles.
+          </p>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr;gap:1.5rem;margin-top:2rem;">
+          <div class="three-t">
+            <div class="t-number">T1</div>
+            <h3>Trip Planning</h3>
+            <p style="color:var(--color-mid);margin-bottom:1rem;">Does anyone know where you are going and when you expect to return?</p>
+            <ul class="info-list">
+              <li>File a trip plan with a trusted person before you leave</li>
+              <li>Research your route — maps, elevation, hazards, and conditions</li>
+              <li>Check the weather forecast before and during your trip</li>
+              <li>Know how to call for help if your primary device fails</li>
+              <li>Set a definitive return time — and stick to it</li>
+              <li>Use the free <a href="https://www.adventuresmart.ca" target="_blank" rel="noopener" style="color:var(--color-accent)">AdventureSmart Trip Plan App</a></li>
+            </ul>
+          </div>
+          <div class="three-t">
+            <div class="t-number">T2</div>
+            <h3>Training</h3>
+            <p style="color:var(--color-mid);margin-bottom:1rem;">Do you have the knowledge and skills you need before heading out?</p>
+            <ul class="info-list">
+              <li>Take a first aid course before venturing into the backcountry</li>
+              <li>Learn basic navigation — map, compass, and GPS</li>
+              <li>Know how to recognize and respond to hypothermia</li>
+              <li>Understand the specific hazards of your activity (avalanche, swift water, etc.)</li>
+              <li>Know and stay within your own physical limits</li>
+              <li>Go with experienced people when trying new terrain or activities</li>
+            </ul>
+          </div>
+          <div class="three-t">
+            <div class="t-number">T3</div>
+            <h3>Taking the Essentials</h3>
+            <p style="color:var(--color-mid);margin-bottom:1rem;">Do you always carry the essential gear — and know how to use it?</p>
+            <ul class="info-list">
+              <li>Always carry the Ten Essentials, even on short trips</li>
+              <li>Bring more food and water than you think you'll need</li>
+              <li>Dress in layers appropriate for changing conditions</li>
+              <li>Carry a communication device — ideally a satellite communicator</li>
+              <li>Know how to use every item in your pack</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ten Essentials -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Gear Up</span>
+          <h2>The Ten Essentials</h2>
+          <p>Never head into the backcountry without these items. They can save your life if something goes wrong.</p>
+        </div>
+        <div class="essentials-grid">
+          <div class="essential-item"><span>🗺️</span> Navigation (map &amp; compass)</div>
+          <div class="essential-item"><span>☀️</span> Sun protection</div>
+          <div class="essential-item"><span>🌡️</span> Insulation (extra layers)</div>
+          <div class="essential-item"><span>🔦</span> Illumination (headlamp)</div>
+          <div class="essential-item"><span>🩺</span> First aid kit</div>
+          <div class="essential-item"><span>🔥</span> Fire starter</div>
+          <div class="essential-item"><span>🔪</span> Repair tools &amp; knife</div>
+          <div class="essential-item"><span>🍎</span> Nutrition (extra food)</div>
+          <div class="essential-item"><span>💧</span> Hydration (extra water)</div>
+          <div class="essential-item"><span>⛺</span> Emergency shelter</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEND Devices -->
+    <section class="section">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <div class="section-header">
+              <span class="eyebrow">Communication</span>
+              <h2>Satellite Communicators (SEND Devices)</h2>
+            </div>
+            <p>
+              Satellite Emergency Notification Devices (SEND) — like SPOT trackers and Garmin inReach — are highly recommended for backcountry travel where cell coverage is unavailable.
+            </p>
+            <p>
+              These devices combine GPS with satellite messaging, allowing you to send your location and request help even from the most remote areas. Many also allow two-way messaging so you can communicate with family or respond to check-in requests.
+            </p>
+            <p>
+              If you activate the SOS on a SEND device, it triggers a response through the Joint Rescue Coordination Centre (JRCC) in Victoria, which notifies the appropriate local SAR group — including CSAR for incidents in our area.
+            </p>
+          </div>
+          <div>
+            <div class="card card--accent">
+              <h3 style="color:var(--color-primary);">What Happens When You Trigger SOS</h3>
+              <br>
+              <ul class="info-list" style="counter-reset:steps;">
+                <li>Your position and SOS alert are sent via satellite to a monitoring agency</li>
+                <li>The alert is forwarded to the Joint Rescue Coordination Centre (JRCC) in Victoria</li>
+                <li>JRCC determines the response type and contacts EMBC</li>
+                <li>EMBC activates the nearest appropriate SAR group (e.g. CSAR)</li>
+                <li>SAR team responds and initiates search/rescue operations</li>
+              </ul>
+              <br>
+              <p style="font-size:0.85rem;color:var(--color-mid);">
+                <strong>Important:</strong> Only press SOS when you genuinely need rescue. Stay at your location if possible so rescuers can find you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seasonal Tips -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Seasonal Safety</span>
+          <h2>Know Your Season</h2>
+          <p>The West Kootenay presents different hazards year-round. Be aware of the risks specific to the season.</p>
+        </div>
+        <div class="cards-grid">
+          <div class="card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.15);color:#fff;">
+            <div class="card-icon">☃️</div>
+            <h3 style="color:#fff;">Winter</h3>
+            <p style="color:rgba(255,255,255,0.7);">Avalanche hazard, hypothermia, frostbite, whiteout conditions, limited daylight. Check avalanche forecasts before backcountry travel. Carry an avalanche transceiver, probe, and shovel in avalanche terrain.</p>
+          </div>
+          <div class="card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.15);color:#fff;">
+            <div class="card-icon">🌸</div>
+            <h3 style="color:#fff;">Spring</h3>
+            <p style="color:rgba(255,255,255,0.7);">High and fast rivers from snowmelt. Unstable trails and washouts. Lingering snowpack on higher elevations. River crossings that look easy can be extremely dangerous in spring.</p>
+          </div>
+          <div class="card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.15);color:#fff;">
+            <div class="card-icon">☀️</div>
+            <h3 style="color:#fff;">Summer</h3>
+            <p style="color:rgba(255,255,255,0.7);">Dehydration, heat exhaustion, wildfire smoke, afternoon thunderstorms on ridges. Familiar locals are common SAR subjects — don't be overconfident on trails you know well.</p>
+          </div>
+          <div class="card" style="background:rgba(255,255,255,0.08);border-color:rgba(255,255,255,0.15);color:#fff;">
+            <div class="card-icon">🍂</div>
+            <h3 style="color:#fff;">Fall</h3>
+            <p style="color:rgba(255,255,255,0.7);">Rapidly changing weather, early snowfall at elevation, slippery trails. Hunting season activity. Shorter days mean less time to self-rescue before dark.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- No Charge Reminder -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-block">
+          <h2>If You Need Help — Call 911. Always Free.</h2>
+          <p>
+            Never hesitate to call for help because of embarrassment, cost, or fear of judgment. CSAR is here to help — no questions, no charge, no conditions. Your safety is what matters.
+          </p>
+          <a href="tel:911" class="btn btn--outline">📞 Call 911 for Emergencies</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="nav-logo" style="margin-bottom:1rem;">
+            <div class="nav-logo-icon">SAR</div>
+            <div class="nav-logo-text" style="color:#fff;">
+              Castlegar Search &amp; Rescue
+              <span>West Kootenay, BC</span>
+            </div>
+          </a>
+          <p>Volunteer Ground Search and Rescue serving Castlegar and the West Kootenay region of British Columbia.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About CSAR</a></li>
+            <li><a href="training.html">Our Training</a></li>
+            <li><a href="safety.html">Outdoor Safety</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="https://bcsara.com" target="_blank" rel="noopener">BCSARA</a></li>
+            <li><a href="https://www.adventuresmart.ca" target="_blank" rel="noopener">AdventureSmart</a></li>
+            <li><a href="https://www.facebook.com/CastlegarSAR" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="tel:911">Emergency: 911</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Castlegar Society for Search &amp; Rescue. All rights reserved.</span>
+        <span>For emergencies, call <a href="tel:911">911</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
